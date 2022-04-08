@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +13,13 @@
 </head>
 <body>
 <div class="px-4 py-5 my-5 text-center">
-    <h1 class="display-5 fw-bold">LISTA DE USUARIOS</h1>
+    <h1 class="display-5 fw-bold">LISTA DE USUÁRIOS</h1>
    
-      <!--  SEU CODIGO AQUI -->
-    
+		<%-- Usando a taglib (é possível fazer os imports e programar com scriptlets, mas usar essa taglib torna o algoritmo mais limpo e seguro) --%>
+		<c:forEach var="u" items="${usuarios}">
+			<c:out value="${u.login}"></c:out><br>
+		</c:forEach>
+   
     </div>
 </div>
 
