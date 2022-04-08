@@ -29,8 +29,8 @@ public class LoginController extends HttpServlet {
 			resp.sendRedirect("/login.jsp")
 		} else {
 			resp.sendRedirect("/cadastro.jsp");
-			}
 		}
+
 	}
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
