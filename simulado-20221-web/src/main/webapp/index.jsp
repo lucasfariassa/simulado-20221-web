@@ -21,12 +21,12 @@
       
       <p>
        Aqui vamos nós! Um cliente nos solicitou um sistema de gestão de condomínios e para começar a validar 
-       as necessidades do cliente resolvemos fazer um prototipo funcional do sistema.
+       as necessidades do cliente resolvemos fazer um protótipo funcional do sistema.
       </p>
       
       <p>
-      A primeira funcionalidade seria uma tela de login. Para facilitar, vocês já tem uma Classe Usuario.java e uma classe 
-      UsuarioDAO.java que vão representar o nosso Modelo de dados e o nosso repositorio respectivamente.
+      A primeira funcionalidade seria uma tela de login. Para facilitar, vocês já têm uma Classe Usuario.java e uma classe
+      UsuarioDAO.java que vão representar o nosso Modelo de dados e o nosso repositório respectivamente.
             <ul>
        <li> Edite o LoginController que recebe os dados do login e senha do usuário 
        <li> Verifica se o usuário existe e testa se a senha está correta.
@@ -46,7 +46,7 @@
       <p>
 Exiba a lista de usuários. 
       <ul>
-       <li> Edite o UsuarioListController que deve pesquiasr a lista de usuário e repassar ao lista.jsp 
+       <li> Edite o UsuarioListController que deve pesquisar a lista de usuário e repassar ao lista.jsp
        <li> Edite o lista.jsp que exibe a lista de usuários.
       </ul>
       </p>
@@ -60,14 +60,14 @@ Exiba a lista de usuários.
       PARTE 3
       </p>
       <p>
-			Formulario para adicionar Usuários. 
+			Formulário para adicionar Usuários.
       <ul>
      	<li> Crie o jsp com o formulário para coletar os dados do usuário.
        	<li> Crie um Controller que recebe os dados do usuário e salva no "UsuarioDAO". 
       </ul>
       </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="/novo" class="btn btn-primary btn-lg px-4 gap-3">PARTE 3</a>
+        <a href="/cadastro" class="btn btn-primary btn-lg px-4 gap-3">PARTE 3</a>
       </div>
     </div>
   </div>

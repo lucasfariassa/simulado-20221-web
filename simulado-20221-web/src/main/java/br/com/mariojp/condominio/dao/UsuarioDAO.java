@@ -10,8 +10,6 @@ import br.com.mariojp.condominio.model.Usuario;
 
 public class UsuarioDAO {
 
-	
-	
 	private static Map<String, Usuario>  usuarios = new HashMap<String, Usuario>();
 	
 	static {
@@ -20,30 +18,15 @@ public class UsuarioDAO {
 		usuario.setSenha("1234");
 		usuarios.put(usuario.getLogin(), usuario);
 	}
-	
-	
+
 	public Usuario findByLogin(String login) {
-		if (!login.equals(usuarios)) {
-			Logi
-		}
-		
-		/* for (int i = 0; i < usuarios.size(); i++) {
-			if (!login.equals(usuarios) {
-				
-			} else {
-				
-			}
-		} */
 		return usuarios.get(login);
-		
 	}
-	
-	
+
 	public void save(Usuario usuario) {
 		usuarios.put(usuario.getLogin(), usuario);
 	}
-	
-	
+
 	public void delete(Usuario usuario) {
 		delete(usuario.getLogin());
 	}
@@ -55,10 +38,5 @@ public class UsuarioDAO {
 	public List<Usuario> findAll() {
 		return new ArrayList<Usuario>(usuarios.values());
 	}
-	
-	
-	
-	
-	
-	
+
 }
